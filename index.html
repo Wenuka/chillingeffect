@@ -62,7 +62,7 @@
                     </div>
                     <div class="col-md-6">
                         <h4 class="my-3">Chilling Effect Definition</h4>
-                        <p class="text-muted">The “chilling effect” refers to a phenomenon where individuals or groups refrain from engaging in expression for fear of running afoul of a law or regulation. The Chilling Effect may be caused by legal actions such as the passing of a law, the decision of a court, or the threat of a lawsuit or any such legal action that would cause people to hesitate to exercise a legitimate right for fear of legal repercussions.
+                        <p class="text-muted">The <b>chilling effect</b> refers to a phenomenon where individuals or groups refrain from engaging in expression for fear of running afoul of a law or regulation. The Chilling Effect may be caused by legal actions such as the passing of a law, the decision of a court, or the threat of a lawsuit or any such legal action that would cause people to hesitate to exercise a legitimate right for fear of legal repercussions.
                         </p>
                     </div>
                 </div>
@@ -74,7 +74,11 @@
                 <div class="row text-center">
                     <div class="col-md-6">
                         <h4 class="my-3">Snowden Revelations</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <p class="text-muted">
+                            Edward Snowden is an ex-agent of the FBI who disclosed classified documents showing evidence of <b>mass online surveillance</b> from the United States. This includes revelations of collaborations with companies (through the PRISM program) or with other states (the Five Eyes countries), in order to accumulate data on every citizen.
+                            <br><br>
+                            Allegedly, these programs are meant to fight terrorist threats and improve global security, but it can be argued that these surveillance techniques go too far and violate people’s privacy.
+                        </p>
                     </div>
                     <div class="col-md-6">
                         <img src="assets/img/snowden_effect.jpg" alt="Snowden image" style="max-width: 98%" />
@@ -92,9 +96,14 @@
                 <div class="row text-center">
                     <div class="col-md-12">
                         <!-- <h4 class="my-3">Existing Research</h4> -->
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <!-- <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p> -->
+                        <p class="text-muted">
+                            Penney [1] demonstrated a chilling effect after the Snowden revelations by studying the 2012-2014 period. The following analysis is based on the same methodology, but extends it by using <a class="portfolio-link" data-toggle="modal" href="#dataModal2">this dataset</a> which spans to a longer time period and by taking into account more external factors, while also considering other events that may have caused a chilling effect.
+                            <br><br>
+                            [1] Penney, Jonathon, Chilling Effects: Online Surveillance and Wikipedia Use (2016). Berkeley Technology Law Journal, Vol. 31, No. 1, p. 117, 2016.
+
+                        </p>
                     </div>
                 </div>
             </div>
@@ -203,7 +212,14 @@
                 <div class="row text-center">
                     <div class="col-md-6">
                         <h4 class="my-3">Growth of internet</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <p class="text-muted">
+                            So far we have seen a persistent Chilling effect, especially after the Snowden revelations. However is this the only factor that governs the users behavior on the internet? What may be the other factors that affected this change?</p>
+                        <p class="text-muted">
+                            For example, the internet has been one of our most transformative and fast-growing technologies. Globally the number of internet users increased from only 413 million in 2000 to over 4.8 billion in mid 2020
+                        </p>
+                        <p class="text-muted">
+                            In the following section we will analyse the overall trend using<br><a class="portfolio-link" data-toggle="modal" href="#dataModal1">this dataset</a> containg number of users in the internet
+                        </p>
                     </div>
                     <div class="col-md-6">
                         <img src="assets/img/Internet-growth.jpg" alt="Growth of the internet" style="max-width: 98%" />
@@ -216,11 +232,18 @@
             <div class="container">
                 <div class="text-center">
                     <h4 class="my-3">Look in to data</h4>
-                    <h3 class="section-subheading text-muted">Other factors in data</h3>
+                    <h3 class="section-subheading text-muted">The number of views for a million internet users</h3>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-12">
-                        <img src="assets/img/plots/persistence.png" class="center-block" alt="Research question 3 image" style="max-width: 98%;" />
+                        <img src="assets/img/plots/internetAnalysis.png" class="center-block" alt="Research question 3 image" style="max-width: 98%;" />
+                    </div>
+                    <div class="col-md-12" style="margin-top: 2%;">
+                        <p class="text-muted">
+                            This tells a different story than the conclusion we made above. Now the division between the two categories are not so significant. In other words, when we take the number of internet users in the world, the total traffic for these terrorism related articles have a negative trend.
+                            <br>
+                            Interestingly, the security articles seem to be less impacted by the growing number of Internet users.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -306,7 +329,82 @@
                 </div>
             </div>
         </footer>
-        
+                <!-- Portfolio Modals-->
+        <!-- Modal 1-->
+        <div class="portfolio-modal modal fade" id="dataModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Growth of the Internet</h2>
+                                    <p class="item-intro text-muted">Number of users in the internet</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/internet.png" alt="" />
+                                    <p>
+                                        As we can see, we can see a very good match between the actual graph and the regression line. This is a very convinient result as now we can use the regression line for the analysis, thus eliminating the issue of some missing figures in the actual dataset.
+                                        <br>
+                                        Here the regression line has a R^2 value of 0.995 and we can neglect the null hypothesis because the p value is zero.
+                                        <br>
+                                        And a **fun fact** is according to this, we can safely say internet users grows ~2.3 million each month!
+                                    </p>
+                                    <!-- <ul class="list-inline">
+                                        <li>Date: January 2020</li>
+                                        <li>Client: Threads</li>
+                                        <li>Category: Illustration</li>
+                                    </ul> -->
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Dataset Explanation
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 2-->
+        <div class="portfolio-modal modal fade" id="dataModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Expanded Dataset</h2>
+                                    <p class="item-intro text-muted">The dataset used for the analysis</p>
+                                    <p>
+                                        This analysis is based on the English Wikipedia traffic of terrorism-related articles. These articles were chosen because they may be considered privacy-sensitive by a majority of people, which means that someone would be less inclined to visit them under the assumption that this action is being watched. 
+                                        <br><br>
+                                        In order to detect long-lasting trends, a wide range of time was chosen, i.e. from 2008 to 2018.
+                                    </p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/plots/dataset1.png" alt="" />
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/plots/dataset2.png" alt="" />
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+
+                                    <!-- <ul class="list-inline">
+                                        <li>Date: January 2020</li>
+                                        <li>Client: Explore</li>
+                                        <li>Category: Graphic Design</li>
+                                    </ul> -->
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Dataset Explanation
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
