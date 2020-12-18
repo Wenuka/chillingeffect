@@ -474,6 +474,10 @@ mark,
   content: "— ";
 }
 
+.img-bw {
+  filter: grayscale(20%);
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -10425,10 +10429,10 @@ header.masthead .masthead-heading {
   margin-bottom: 0;
 }
 
-section#contact {
-  background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
-  background-repeat: no-repeat;
+section#team {
+  background-color: #dddddd;
+  background-image: url("../assets/img/bg3.jpg");
+  background-repeat: repeat;
   background-position: center;
 }
 section#contact .section-heading {

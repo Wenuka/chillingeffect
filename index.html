@@ -51,7 +51,7 @@
             </div>
         </header>
 
-        <section class="page-section bg-light" id="context">
+        <section class="page-section" id="context">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Context</h2>
@@ -59,7 +59,7 @@
                 </div>
                 <div class="row text-center">
                     <div class="col-md-6">
-                        <img src="assets/img/cantrustGov.png" alt="Can we trust government image" style="max-width: 98%" />
+                        <img src="assets/img/cantrustGov.png" class="img-bw" alt="Can we trust government image" style="max-width: 98%" />
                     </div>
                     <div class="col-md-6">
                         <h4 class="my-3">Chilling Effect Definition</h4>
@@ -70,7 +70,7 @@
             </div>
         </section>
 
-        <section class="page-section">
+        <section class="page-section bg-light">
             <div class="container">
                 <div class="row text-center">
                     <div class="col-md-6">
@@ -88,7 +88,7 @@
             </div>
         </section>
 
-        <section class="page-section bg-light" id="existing">
+        <section class="page-section" id="existing">
             <div class="container">
                 <div class="row text-center">
                     <div class="col-md-12">
@@ -104,7 +104,7 @@
             </div>
         </section>
 
-        <section class="page-section" id="data">
+        <section class="page-section bg-light" id="data">
             <div class="container">
                 <div class="row text-center">
                     <div class="col-md-12">
@@ -126,13 +126,13 @@
             </div>
         </section>
 
-        <section class="page-section bg-light" id="persistent">
+        <section class="page-section" id="persistent">
             <div class="container">
-                <div class="text-center">
+                <!-- <div class="text-center">
                 <div class="col-md-12">
                     <img src="assets/img/snowden_protest.jpg" class="center-block" alt="Research question 1 image" style="max-width: 98%;" />
                 </div>
-                </div>
+                </div> -->
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Persistent Effect?</h2>
                     <h3 class="section-subheading text-muted">Can we see the same trend in a longer timespan?</h3>
@@ -142,7 +142,8 @@
                 </div>
                 <div class="row text-center">
                     <div class="col-md-12">
-                        <img src="assets/img/plots/persistence.png" class="center-block" alt="Research question 1 image" style="max-width: 98%;" />
+                        <iframe src="plots/testfile.html" style="height:600px; width:90%; border:none; max-height:90%"></iframe>
+                        <!-- <img src="assets/img/plots/persistence.png" class="center-block" alt="Research question 1 image" style="max-width: 98%;" /> -->
                     </div>
                     <p class="text-muted">
                     The sudden drop in views and trend shift from increasing monthly views over time to decreasing after June 2013 is consistent with a significant and long-term chilling effect.If we look at the security articles, the drop-off is not significant. However, there still seems to be a slight change in the slope. Instead of steadily growing, the data shows a sudden peak followed by lower values than in the first segment. It means that part of the slope variation for the terrorism articles may be explained by other factors, but the result is still significant enought to indicate a chilling effect.
@@ -153,7 +154,7 @@
         </section>
 
 
-        <section class="page-section" id="other">
+        <section class="page-section bg-light" id="other">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Other Scandals</h2>
@@ -202,10 +203,10 @@
             </div>
         </section>
 
-        <section class="page-section bg-light">
+        <section class="page-section">
             <div class="container">
                 <div class="text-center">
-                    <h4 class="my-3">Observations</h4>
+                    <h3 class="my-3">Observations</h4>
                 </div>
                 <div class="row text-center">
 
@@ -214,17 +215,25 @@
                         <p class="text-muted">This event is very similar to the Snowden incident, and such an extreme prison sentence can have a very dissuasive effect on the population. Since it is so close in time with the Snowden revelations, it may have contributed to the chilling effect shown above.</p>
                     </div>
                     <div class="col-md-6">
+                        <img src="assets/img/confuse.png" alt="Vault 7 plot" style="max-width: 98%" />
 
                     </div>
+                </div>
+                <hr>
 
-
+                <div class="row text-center">
+                    <div class="col-md-6">
+                        <!-- <iframe src="plots/testfile.html" style="height:300px; width:90%; border:none; max-height:90%"></iframe> -->
+                        <img src="assets/img/vault-7-plot.png" alt="Vault 7 plot" style="max-width: 98%" />
+                    </div>
                     <div class="col-md-6">
                         <h5 class="my-3">Vault 7</h5>
                         <p class="text-muted">The nature of this incident makes it quite similar to the Snowden incident, but a potential chilling effect may be diminished since the documents were released in 24 parts (from March to September 2017) and not in a single batch. It turns out that unlike the Snowden event, the data does not show any sign of chilling effect at this date.</p>
                     </div>
-                    <div class="col-md-6">
-                        <img src="assets/img/vault-7-plot.png" alt="Vault 7 plot" style="max-width: 98%" />
-                    </div>
+                </div>
+                <hr>
+
+                <div class="row text-center">
 
                     <div class="col-md-6">
                         <h5 class="my-3">Cambridge Analytica</h5>
@@ -239,7 +248,7 @@
         </section>
 
 
-        <section class="page-section" id="analysis">
+        <section class="page-section bg-light" id="analysis">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Analysis</h2>
@@ -264,7 +273,7 @@
             </div>
         </section>
 
-        <section class="page-section bg-light">
+        <section class="page-section">
             <div class="container">
                 <div class="text-center">
                     <h4 class="my-3">Look into the data</h4>
@@ -272,7 +281,9 @@
                 </div>
                 <div class="row text-center">
                     <div class="col-md-12">
-                        <img src="assets/img/plots/internetAnalysis.png" class="center-block" alt="Research question 3 image" style="max-width: 98%;" />
+                        <iframe src="plots/testfile.html" style="height:600px; width:90%; border:none; max-height:90%"></iframe>
+
+                        <!-- <img src="assets/img/plots/internetAnalysis.png" class="center-block" alt="Research question 3 image" style="max-width: 98%;" /> -->
                     </div>
                     <div class="col-md-12" style="margin-top: 2%;">
                         <p class="text-muted">
@@ -285,7 +296,7 @@
             </div>
         </section>
 
-        <section class="page-section" id="conclusions">
+        <section class="page-section bg-light" id="conclusions">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Conclusions</h2>
@@ -304,7 +315,7 @@
 
 
         <!-- Team-->
-        <section class="page-section bg-light" id="team">
+        <section class="page-section" id="team">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Our Team</h2>
@@ -333,8 +344,8 @@
                             <h4>Wenuka Gunarathna</h4>
                             <!-- <p class="text-muted">Lead Developer</p> -->
                             <a class="btn btn-dark btn-social mx-2" target="_none" href="https://github.com/wenuka"><i class="fab fa-github"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" target="_none" href="#team"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" target="_none" href="https://www.linkedin.com/in/wenuka/"><i class="fab fa-linkedin-in"></i></a>
+                            <!-- <a class="btn btn-dark btn-social mx-2" target="_none" href="#team"><i class="fab fa-twitter"></i></a> -->
+                            <!-- <a class="btn btn-dark btn-social mx-2" target="_none" href="https://www.linkedin.com/in/wenuka/"><i class="fab fa-linkedin-in"></i></a> -->
                         </div>
                     </div>
                 </div>
@@ -349,6 +360,10 @@
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-dark btn-social mx-2" href="https://github.com/epfl-ada/ada-2020-project-milestone-p3-p3_explorers"><i class="fab fa-github"></i></a>
                     </div>
+                    <div class="col-lg-4 text-lg-right">
+                        <a class="mr-3" href="#!">EPFL-ADA-2020</a>
+                    </div>
+
                 </div>
             </div>
         </footer>
@@ -365,11 +380,12 @@
                                     <!-- Project Details Go Here-->
                                     <h2 class="text-uppercase">Growth of the Internet</h2>
                                     <p class="item-intro text-muted">Number of users in the internet</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/internet.png" alt="" />
+                                    <iframe src="plots/regression.html" style="height:600px; width:90%; border:none; max-height:90%;"></iframe>
+                                    <!-- <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/internet.png" alt="" /> -->
                                     <p>
                                         As we can see, we can see a very good match between the actual graph and the regression line. This is a very convinient result as now we can use the regression line for the analysis, thus eliminating the issue of some missing figures in the actual dataset.
                                         <br>
-                                        Here the regression line has a R^2 value of 0.995 and we can neglect the null hypothesis because the p value is zero.
+                                        Here the regression line has a R&sup2; value of 0.995 and we can neglect the null hypothesis because the p value is zero.
                                         <br>
                                         And a fun fact is according to this, we can safely say internet users grows ~2.3 million each month!
                                     </p>
